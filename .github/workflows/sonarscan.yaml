@@ -27,7 +27,7 @@ jobs:
         args: >
           -Dsonar.organization=my-org
           -Dsonar.projectKey=appsec-Java-app
-          -Dsonar.projectName=TEST-PROJECT
+          -Dsonar.projectName=AppSEC-Java-app
           -Dsonar.projectVersion=1.0
           -Dsonar.sources=src/main/java/
           -Dsonar.language=java
