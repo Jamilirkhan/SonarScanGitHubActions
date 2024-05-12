@@ -1,5 +1,4 @@
-name: CI/CD workflow for Maven Build, Sonar Code scan and Quality gate check
-on:
+name: CI/CD workflow for Maven Build, Sonar Code scan 
   push:
     branches:
       - main
