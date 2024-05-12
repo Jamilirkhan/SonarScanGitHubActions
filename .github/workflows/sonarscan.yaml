@@ -18,7 +18,7 @@ jobs:
         java-version: '11'
         
     - name: Build with Maven
-      run: mvn clean install -f SonarScanGitHubActions/pom.xml
+      run: mvn clean install -f pom.xml
       
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
