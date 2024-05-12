@@ -27,6 +27,12 @@ jobs:
         args: >
           -Dsonar.organization=my-org
           -Dsonar.projectKey=appsec-Java-app
+          -Dsonar.projectName=TEST-PROJECT
+          -Dsonar.projectVersion=1.0
+          -Dsonar.sources=src/main/java/
+          -Dsonar.language=java
+          -Dsonar.java.binaries=**/target/classes 
+
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
