@@ -11,7 +11,7 @@
 
 public class LinkedList {
     private Node head;
-
+/*
     public void test_divide() {
 	int z = 0;
 	if (z<1) {
@@ -22,7 +22,7 @@ public class LinkedList {
 	}
 	z = 1 / z; // Noncompliant, possible division by zero		  
     }
-
+*/
     public void add(String element) {
         Node newNode = new Node(element);
 	Integer firstInt = null;		
