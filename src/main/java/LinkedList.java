@@ -12,7 +12,7 @@
 public class LinkedList {
     private Node head;
 
-    public void test_divide() {
+    public void test_divide() { //vulnerable function
 	int z = 0;
 	if (z<1) {
 	    // ..
